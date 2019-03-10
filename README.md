@@ -23,7 +23,11 @@ set expandtab
 ```
 This is a screenshot of how the syntax looks on paragold. Comments easy on the eyes, language keywords contrasted a bit, and values highlighted even more, allowing focus on work and high productivity. 
 
+![Preview1](./paragold-ora-screenshot.PNG)
+
+You can also try *paragold-ora.vim* which is an orange variation that looks like this:
 ![Preview1](./paragold.PNG)
+
 
 ### How to install dracuprod Putty colorscheme and better defaults ###
 
