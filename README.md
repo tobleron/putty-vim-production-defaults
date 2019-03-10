@@ -3,7 +3,7 @@ These repositories aim to provide production ready color scheme defaults for bot
 
 The vim colorscheme paragold.vim is based on paramount.vim. It is a minimal theme which intends to focus on what matters. The main difference between paramount and paragold is the main highlight color, which is gold-yellow instead of purple.
 
-### How to install paragold.vim colorscheme ###
+### How to install paragold.vim colorscheme for vim ###
 
 1. Just copy paragold.vim into "colors" directory in your ~/.vim/colors and put paragold.vim inside it. If the "colors" directory does not exist, create it.
 
