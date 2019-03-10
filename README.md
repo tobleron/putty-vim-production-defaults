@@ -16,17 +16,20 @@ set t_Co=256
 "Informing the system that the Putty background is black
 set background=dark
 
+"Set the colorscheme
+colorscheme paragold
+"colorscheme paragold-ora
+
 "All the following are optional and my personal preference. I prefer 2 spaces for a single tab during development.
 set tabstop=2
 set shiftwidth=2
 set expandtab
 ```
 This is a screenshot of how the syntax looks on paragold. Comments easy on the eyes, language keywords contrasted a bit, and values highlighted even more, allowing focus on work and high productivity. 
-
-![Preview1](./paragold-ora-screenshot.PNG)
+![Preview1](./paragold.PNG)
 
 You can also try *paragold-ora.vim* which is an orange variation that looks like this:
-![Preview1](./paragold.PNG)
+![Preview1](./paragold-ora-screenshot.PNG)
 
 
 ### How to install dracuprod Putty colorscheme and better defaults ###
