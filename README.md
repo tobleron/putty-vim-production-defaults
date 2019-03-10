@@ -1,7 +1,7 @@
 # putty-vim-production-defaults
 These repositories aim to provide production ready color scheme defaults for both Putty &amp; Vim
 
-The vim colorscheme paragold.vim is based on paramount.vim. It is a minimal theme which intends to focus on what matters. The main difference between paramount and paragold is the main highlight color, which is gold-yellow instead of purple.
+The vim colorscheme paragold.vim is based on paramount.vim. It is a minimal theme which intends to highlight text that matters. The main difference between paramount and paragold is the main highlight color, which is gold-yellow instead of purple.
 
 ### How to install paragold.vim colorscheme for vim on Linux###
 
