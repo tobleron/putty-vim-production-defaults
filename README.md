@@ -21,6 +21,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 ```
+This is a screenshot of how the syntax looks on paragold. Comments easy on the eyes, language keywords contrasted a bit, and values highlighted even more, allowing focus on work and high productivity. 
+
+![Preview1](./paragold.PNG)
+
 ### How to install dracuprod Putty colorscheme and better defaults ###
 
 Dracuprod is a Putty colorscheme based on Dracula color scheme with some minor changes and enhancements for better visibility. To install it double click on dracuprod.reg and a new record will be added into Putty.exe as follows.
