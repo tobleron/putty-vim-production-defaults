@@ -5,11 +5,11 @@ The vim colorscheme paragold.vim is based on paramount.vim. It is a minimal them
 
 ### How to install paragold.vim ###
 
-1. Just copy paragold.vim into "colors" directory in your ~/.vim/colors and put paragold.vim inside it. If "colors" directory does not exist, create it/.
+1. Just copy paragold.vim into "colors" directory in your ~/.vim/colors and put paragold.vim inside it. If the "colors" directory does not exist, create it.
 
 2. Then open .vimrc in your $HOME directory and add the following lines:
 
-<code>
+```
 "If you don't see colors on putty write this line:
 set t_Co=256
 
@@ -20,7 +20,6 @@ set background=dark
 set tabstop=2
 set shiftwidth=2
 set expandtab
-</code>
-
+```
 ### How to Putty colorscheme and better defaults ###
 
