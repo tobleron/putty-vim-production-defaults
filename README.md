@@ -32,3 +32,7 @@ Dracuprod is a Putty colorscheme based on Dracula color scheme with some minor c
 ![Preview1](./putty_screenshot.PNG)
 
 I have carefully chosen the settings that makes my Putty.exe ready for development. I hope you enjoy the default settings made and let me know if there are any suggestions.
+
+This is a screenshot of how the color scheme should look like:
+
+![Preview1](./Dracuprod_screenshot1.PNG)
