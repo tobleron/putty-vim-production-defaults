@@ -5,7 +5,10 @@
 "
 " paragold.vim is a presumed enhancement based on paramount.vim which is a minimal colorscheme for Vim that only puts emphasis on the paramount.
 "
-" Based on the pencil and off colorschemes:
+" Based on the paramount colorscheme:
+" https://github.com/owickstrom/vim-colors-paramount
+
+" Paramount is based of colorschemes:
 "
 " https://github.com/reedes/vim-colors-pencil
 " https://github.com/reedes/vim-colors-off
