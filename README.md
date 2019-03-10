@@ -21,5 +21,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 ```
-### How to Putty colorscheme and better defaults ###
+### How to install dracuprod Putty colorscheme and better defaults ###
 
+Dracuprod is a Putty colorscheme based on Dracula color scheme with some minor changes and enhancements for better visibility. To install it double click on dracuprod.reg and a new record will be added into Putty.exe as follows.
+
+![Preview1](./putty_screenshot.PNG)
+
+I have carefully chosen the settings that makes my Putty.exe ready for development. I hope you enjoy the default settings made and let me know if there are any suggestions.
