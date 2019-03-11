@@ -29,7 +29,7 @@ This is a screenshot of how the syntax looks on paragold. Comments easy on the e
 ![Preview1](./paragold.PNG)
 
 You can also try *paragold-ora.vim* which is an orange variation that looks like this:
-![Preview1](./paragold-ora-screenshot.PNG)
+![Preview1](./paragold-ora.PNG)
 
 
 ### How to install dracuprod Putty colorscheme and better defaults ###
