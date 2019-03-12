@@ -34,7 +34,6 @@ let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:lightest_gray   = { "gui": "#EEEEEE", "cterm": "255" }
 let s:pink            = { "gui": "#fb007a", "cterm": "9"   }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
-let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#D75F5F", "cterm": "167" }
 let s:darker_blue     = { "gui": "#005F87", "cterm": "18"  }
 let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
@@ -49,6 +48,8 @@ let s:clear_yellow    = { "gui": "#d7d7af", "cterm": "187" } "Changed from light
 let s:yellow          = { "gui": "#F3E430", "cterm": "11"  }
 let s:light_yellow    = { "gui": "#ffff87", "cterm": "228" }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
+let s:medium_purple   = { "gui": "#5f5f87", "cterm": "60"  }
+let s:medium_violet   = { "gui": "#af0087", "cterm": "126" }
 
 let s:background = &background
 
@@ -61,7 +62,7 @@ if &background == "dark"
   let s:purple          = s:clear_yellow
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
-  let s:red             = s:light_red
+  let s:red             = s:dark_red
   let s:visual          = s:clear_yellow
   let s:yellow          = s:light_yellow
 else
@@ -69,8 +70,8 @@ else
   let s:bg_subtle       = s:light_gray
   let s:bg_very_subtle  = s:lightest_gray
   let s:norm            = s:light_black
-  let s:norm_subtle     = s:gold_yellow
-  let s:purple          = s:dark_purple
+  let s:norm_subtle     = s:medium_purple
+  let s:purple          = s:medium_violet
   let s:cyan            = s:dark_cyan
   let s:green           = s:dark_green
   let s:red             = s:dark_red
@@ -210,12 +211,12 @@ call s:h("SyntasticErrorSign",      {"fg": s:red})
 call s:h("SyntasticError",          {"bg": s:red, "fg": s:white, "gui": "bold", "cterm": "bold"})
 
 " Neomake
-hi link NeomakeWarningSign      SyntasticWarningSign
-hi link NeomakeErrorSign        SyntasticErrorSign
+hi link NeomakeWarningSign	SyntasticWarningSign
+hi link NeomakeErrorSign	SyntasticErrorSign
 
 " ALE
-hi link ALEWarningSign  SyntasticWarningSign
-hi link ALEErrorSign    SyntasticErrorSign
+hi link ALEWarningSign	SyntasticWarningSign
+hi link ALEErrorSign	SyntasticErrorSign
 
 " Signify, git-gutter
 hi link SignifySignAdd              LineNr
