@@ -24,6 +24,7 @@ colorscheme paragold
 set tabstop=2
 set shiftwidth=2
 set expandtab
+syntax on
 ```
 This is a screenshot of how the syntax looks on paragold. Comments easy on the eyes, language keywords contrasted a bit, and values highlighted even more, allowing focus on work and high productivity. 
 ![Preview1](./paragold.PNG)
